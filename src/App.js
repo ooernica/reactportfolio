@@ -1,8 +1,8 @@
-import Nav from './components/nav/Nav';
-import Header from './components/header/Header';
-import About from './components/About/About';
-import Projects from './components/projects/Projects';
-import Contact from './components/Contact/Contact';
+import Nav from "./components/nav/Nav";
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 
 
 function App() {

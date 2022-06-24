@@ -1,9 +1,5 @@
 import './projects.css';
 import famyouly from '../../assets/famyouly.png';
-import notetaker from '../../assets/notetaker.png';
-import puppylove from '../../assets/puppylove.png';
-import wordkdayscheduler from '../../assets/workdayscheduler.png';
-import techblog from '../../assets/techblog.png';
 
 const Projects = () => {
     return (

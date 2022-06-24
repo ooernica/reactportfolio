@@ -1,8 +1,8 @@
 import './contact.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
+import SendIcon from '@mui/icons-material/Send';
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 
 const Contact = () => {
     return (
@@ -14,10 +14,10 @@ const Contact = () => {
                     <GitHubIcon id="git"/>
                     <i className="fab fa-linkedin-in"></i><a id="linkedin" href="https://www.linkedin.com/in/ernal/">LinkedIn</a>
                     <LinkedInIcon id="linkedin"/>
-                    <i className="fas fa-envelope"></i><a id="email" href="mailto:e.lukac@outlook.com">Email</a>
-                    <EmailIcon id="email"/>
-                    <i className="fas fa-phone"></i><a id="phone" href="tel:+17206467668">Phone</a>
-                    <PhoneIcon id="phone"/>
+                    <i className="fas fa-send"></i><a id="send" href="mailto:e.lukac@outlook.com">Email</a>
+                    <SendIcon id="send"/>
+                    <i className="fas fa-phoneandriod"></i><a id="phoneandroid" href="tel:+17206467668">Phone</a>
+                    <PhoneAndroidIcon id="phoneandroid"/>
                 </div>
             </nav>
         </section>
