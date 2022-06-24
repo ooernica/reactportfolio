@@ -1,6 +1,6 @@
 
 import './about.css';
-// import avatar from '../../assets/cartoon.png'
+import avatar from '../../assets/cartoon.png'
 
 const About = () => {
     return (
@@ -8,7 +8,7 @@ const About = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        {/* <img class="erna" src="Assets\Images\Erna cartoon.png" alt="Futurama style cartoon photo of me" /> */}
+                        <img src={avatar} alt="Futurama style cartoon photo of me" />
                     </div>
                     <div class="col-sm-12 pt-5 col-md-6 text-center">
                         <h2>About Me </h2>

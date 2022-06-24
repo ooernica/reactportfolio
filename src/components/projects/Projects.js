@@ -1,5 +1,10 @@
 import './projects.css';
 import famyouly from '../../assets/famyouly.png';
+import raqballrank from '../../assets/raqballrank.png';
+import puppyluv from '../../assets/puppyluv.png';
+import avsquiz from '../../assets/avsquiz.png';
+import notetaker from '../../assets/notetaker.png';
+import teamprofile from '../../assets/teamprofile.png';
 
 const Projects = () => {
     return (
@@ -41,6 +46,7 @@ const Projects = () => {
                 </div>
             </div>
         </section>
-    
+       )
+    } 
 
 export default Projects;
