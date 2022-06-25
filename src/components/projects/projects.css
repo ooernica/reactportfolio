@@ -1,0 +1,43 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.deployedBtn {
+
+    background-color: #021f54;
+    border: 2px solid #aa671d;
+    color: #aa671d;
+
+}
+
+.repoBtn {
+    background-color: #006e8c;
+    border: 2px solid #798da3;
+    color: #798da3;
+
+}
+
+Button {
+    width: 25%;
+    margin-left: 25%;
+    padding: 15px 30px;
+    border-radius: 0.5rem;
+    font-size: medium;
+    
+}
+
+.projectImg {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 15px;
+    object-fit: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content:center;
+}
+
+#teamProfile {
+ max-width: 50%   
+}

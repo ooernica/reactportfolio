@@ -18,38 +18,34 @@ export default function IconBreadcrumbs() {
       <Breadcrumbs aria-label="breadcrumb">
       <Typography
           sx={{ display: 'flex', alignItems: 'center' }}
-          color="text.primary"
         >
           <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          About Me
+        Home
         </Typography>
 
         <Link
           underline="hover"
           sx={{ display: 'flex', alignItems: 'center' }}
-          color="inherit"
           href="/material-ui/getting-started/installation/"
         >
           <AccountTreeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          Projects
+        Work
         </Link>
         <Link
           underline="hover"
           sx={{ display: 'flex', alignItems: 'center' }}
-          color="inherit"
           href="/material-ui/getting-started/installation/"
         >
           <ArticleIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          Resume
+        Skills
         </Link>
         <Link
           underline="hover"
           sx={{ display: 'flex', alignItems: 'center' }}
-          color="inherit"
           href="/material-ui/getting-started/installation/"
         >
             <ConnectWithoutContactIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          Contact
+         Contact
         </Link>
       </Breadcrumbs>
 

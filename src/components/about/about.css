@@ -5,18 +5,30 @@
     width: 90%;
 }
 
-#aboutMeTitle{
+#avatarbox {
+    background-color: #c9d3dd93;
+    
+}
+
+#aboutMeBox {
+    padding-top: 15px;
+    
+
+}
+ 
+#aboutMeTitle {
     font-weight: bold;
     color: teal;
     padding-top: 5px;
-    padding-left: 100px;
 }
 
 #aboutMeBio {
-    padding-left: 100px;
-    object-fit: contain;
+    text-align: center;
+    color: black;
+    font-size: small;
 }
 
 .css-10413fk-MuiPaper-root  {
-    border-radius: none;
+    color: #c9d3ddce;
+
 }
