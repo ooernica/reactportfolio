@@ -12,7 +12,7 @@ function handleClick(event) {
   console.info('You clicked a breadcrumb.');
 }
 
-export default function IconBreadcrumbs() {
+export default function navBar() {
   return (
     <div role="presentation" onClick={handleClick}>
       <Breadcrumbs aria-label="breadcrumb">
@@ -26,7 +26,7 @@ export default function IconBreadcrumbs() {
         <Link
           underline="hover"
           sx={{ display: 'flex', alignItems: 'center' }}
-          href="/material-ui/getting-started/installation/"
+          href="#work"
         >
           <AccountTreeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
         Work
@@ -42,7 +42,7 @@ export default function IconBreadcrumbs() {
         <Link
           underline="hover"
           sx={{ display: 'flex', alignItems: 'center' }}
-          href="/material-ui/getting-started/installation/"
+          href="#contact"
         >
             <ConnectWithoutContactIcon sx={{ mr: 0.5 }} fontSize="inherit" />
          Contact

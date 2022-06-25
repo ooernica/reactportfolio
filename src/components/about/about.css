@@ -18,8 +18,9 @@
  
 #aboutMeTitle {
     font-weight: bold;
-    color: teal;
+    color: #006e8c;
     padding-top: 5px;
+    font-size: medium;
 }
 
 #aboutMeBio {
