@@ -49,7 +49,7 @@ export default function IconBreadcrumbs() {
           href="/material-ui/getting-started/installation/"
         >
             <ConnectWithoutContactIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          Contact Me
+          Contact
         </Link>
       </Breadcrumbs>
 

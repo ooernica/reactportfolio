@@ -1,0 +1,22 @@
+#avatar {
+    border-radius: 25px;
+    box-shadow: 8px 8px #4d453d;
+    object-fit: cover;
+    width: 90%;
+}
+
+#aboutMeTitle{
+    font-weight: bold;
+    color: teal;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+
+#aboutMeBio {
+    padding-left: 100px;
+    object-fit: contain;
+}
+
+.css-10413fk-MuiPaper-root  {
+    border-radius: none;
+}
