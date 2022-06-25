@@ -4,35 +4,19 @@ import avatar from '../../assets/cartoon.png'
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 
 const Item = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(1),
     textAlign: 'center',
 }));
 
-// const StyledPaper = styled(Paper)(({ theme }) => ({
-//     textAlign: 'center',
-//   }));
-
 const About = () => {
     return (
         <>
-            {/* <Box sx={{ flexGrow: 1, overflow: 'hidden', }}> */}
-                {/* <StyledPaper
-                    sx={{
-                        my: 1,
-                        mx: 'auto',
-                        p: 1,
-                    }}
-                >
-                </StyledPaper> */}
                 <Grid container rowSpacing={1} id="avatarbox">
-                    {/* <Grid item={{ xs: 12, sm: 12, md: 6 }}> */}
                         <Item columnSpacing={{ xs: 12 }} rowSpacing={1}>
                             <img src={avatar} id="avatar" alt="Futurama style cartoon photo of me" />
                         </Item>
-                    {/* </Grid> */}
                     <Grid id="aboutMeBox">
                         <Item columnSpacing={{ xs: 12 }} rowSpacing={1} id="aboutMeTitle">
                             About Me
@@ -42,7 +26,6 @@ const About = () => {
                         </Item>
                     </Grid>
                 </Grid>
-            {/* </Box> */}
         </>
     )
 }
