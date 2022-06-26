@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import './nav.css';
+import './Nav.css';
 import HomeIcon from '@mui/icons-material/Home';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import ArticleIcon from '@mui/icons-material/Article';
