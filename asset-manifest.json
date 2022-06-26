@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9bbb9771.css",
+    "main.js": "/static/js/main.c282fbc3.js",
+    "static/media/raqballrank.png": "/static/media/raqballrank.7bff6c08580d44e7368f.png",
+    "static/media/famyouly.png": "/static/media/famyouly.c5fa8675bad4024de0c9.png",
+    "static/media/puppyluv.png": "/static/media/puppyluv.387a45a784e5e6644b67.png",
+    "static/media/cartoon.png": "/static/media/cartoon.84f3532ed3425b3a40f6.png",
+    "static/media/teamprofile.png": "/static/media/teamprofile.19a0b9493bc4f0099655.png",
+    "static/media/ELukacResume.pdf": "/static/media/ELukacResume.17767858c1741a578af7.pdf",
+    "static/media/notetaker.png": "/static/media/notetaker.43b1d33f09b2023d1abb.png",
+    "static/media/avsquiz.png": "/static/media/avsquiz.91467cc2bfa742b0e93e.png",
+    "index.html": "/index.html",
+    "main.9bbb9771.css.map": "/static/css/main.9bbb9771.css.map",
+    "main.c282fbc3.js.map": "/static/js/main.c282fbc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bbb9771.css",
+    "static/js/main.c282fbc3.js"
+  ]
+}
