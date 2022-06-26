@@ -38,7 +38,10 @@ npm i, then npm start to get it going in LocalHost
           
 ## Deployment
 
-https://ooernica.github.io/reactportfolio/    
+Deployed on [Heroku](https://erna-react-portfolio.herokuapp.com/)
+![erna-react-portfolio herokuapp com_(iPhone 12 Pro)](https://user-images.githubusercontent.com/91104984/175822333-0547f0ff-6fa4-4b9f-8a16-73e9754b9d7b.png)
+
+
           
 ## License
 N/A
